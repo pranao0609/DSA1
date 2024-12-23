@@ -14,4 +14,4 @@ int main(){
     cout<<square(5);
     cout<<square(4.4f);
     return 0;
-}
+}launder
