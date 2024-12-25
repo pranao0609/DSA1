@@ -3,7 +3,13 @@
 using namespace std;
 
 int smallest(vector<int>& v){
-
+    int min=v[0];
+    for(int i=1;i<v.size();i++){
+        if(v[i]<min){
+            min=v[i];
+        }
+    }
+    return min;
 
 }
 int main(){
@@ -23,7 +29,7 @@ int main(){
     cout<<endl;
 
     int min=smallest(v);
-
+    cout<<"Smallest Element is : "<<min;
     return 0;
 
 }
